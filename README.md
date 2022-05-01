@@ -1,3 +1,6 @@
+# hello-nest-js 
+Repositório de aprendizado do Nest.js baseado no vídeo [Intensivão Nest.js: do Básico ao Avançado](https://www.youtube.com/watch?v=PHIMN85trgk&t=5408s) do canal [FullCycle](https://www.youtube.com/c/FullCycle/videos)
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
