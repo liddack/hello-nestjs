@@ -9,6 +9,18 @@ services:
       - .:/home/node/app
     depends_on:
       - redis
+      - mongo
 
   redis:
     image: redis:6.2.6-alpine3.14
+
+  mongo:
+    image: mongo:latest
+    volumes:
+      - ./data/db:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=pretendthisisstrong
+      - MONGO_INITDB_DATABASE=graces
+      - MONGO_INITDB_USER=tarnished
+      - MONGO_INITDB_PASSWORD=tarnished
